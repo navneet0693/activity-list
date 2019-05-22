@@ -1,0 +1,17 @@
+{
+  "name": "drupal/hands_on_activity",
+  "description": "A module for Read Entity",
+  "type": "drupal-module",
+  "autoload": {
+    "psr-4": {
+      "Drupal\\hands_on_activity\\": "src/"
+    }
+  },
+  "extra": {
+    "drush": {
+      "services": {
+        "drush.services.yml": "^9"
+      }
+    }
+  }
+}

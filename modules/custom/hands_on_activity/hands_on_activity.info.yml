@@ -1,0 +1,6 @@
+name: Hands On Activity
+description: Hands On Activity Task Module
+type: module
+core: 8.x
+package: Custom
+configure: hands_on_activity.xml_import_form

@@ -1,0 +1,5 @@
+services:
+  read_entity.commands:
+    class: \Drupal\hands_on_activity\Commands\ReadEntityCommands
+    tags:
+      - { name: drush.command }

@@ -1,0 +1,17 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+* Implements hook_help().
+*/
+function hands_on_activity_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.hands_on_activity':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This is an hands on activity task module from Qed42. Run `drush hands_on_activity read` command to import data') . '</p>';
+      return $output;
+    default:
+  }
+}

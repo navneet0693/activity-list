@@ -1,0 +1,7 @@
+hands_on_activity.xml_import_form:
+  path: '/admin/config/xml-import-configuration'
+  defaults:
+    _form: '\Drupal\hands_on_activity\Form\XmlImportConfigurationForm'
+    _title: 'Xml Import configuration'
+  requirements:
+    _permission: 'administer site configuration'

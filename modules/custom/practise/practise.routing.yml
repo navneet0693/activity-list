@@ -5,3 +5,10 @@ example.my_page:
     _title: 'My first page in D8'
   requirements:
     _permission: 'access content'
+practise.form:
+  path: '/resume/myform'
+  defaults:
+    _title: 'Application form'
+    _form: '\Drupal\practise\Form\ResumeForm'
+  requirements:
+    _permission: 'access content'
