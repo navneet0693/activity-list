@@ -1,14 +1,14 @@
-example.my_page:
-  path: '/mypage/page'
+qed_activity.my_page:
+  path: '/qed_activity/page'
   defaults:
-    _controller: '\Drupal\practise\Controller\ExampleController::myPage'
+    _controller: '\Drupal\qed_activity\Controller\ActivityController::myPage'
     _title: 'My first page in D8'
   requirements:
     _permission: 'access content'
-practise.form:
+qed_activity.form:
   path: '/resume/myform'
   defaults:
     _title: 'Application form'
-    _form: '\Drupal\practise\Form\ResumeForm'
+    _form: '\Drupal\qed_activity\Form\ResumeForm'
   requirements:
     _permission: 'access content'

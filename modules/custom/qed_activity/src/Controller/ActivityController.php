@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\practise\Controller;
+namespace Drupal\qed_activity\Controller;
 
 use Drupal\practise\HelloWorldSalutation;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -9,7 +9,7 @@ use Drupal\Core\Controller\ControllerBase;
 /**
  * Provides route responses for the Example module.
  */
-class ExampleController extends ControllerBase {
+class ActivityController extends ControllerBase {
 
 	/**
 	 * @var \Drupal\practise\HelloWorldSalutation

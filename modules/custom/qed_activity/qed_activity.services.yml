@@ -1,0 +1,3 @@
+services:
+  qed_activity.salutation:
+    class: Drupal\qed_activity\HelloWorldSalutation

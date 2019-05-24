@@ -1,3 +1,0 @@
-services:
-  practise.salutation:
-    class: Drupal\practise\HelloWorldSalutation

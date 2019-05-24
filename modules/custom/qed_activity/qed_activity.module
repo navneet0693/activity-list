@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function qed_activity_theme() {
+  return array(
+   'practise_custom_block' => array(
+            'variables' => array('title' => NULL, 'description' => NULL),
+            'template' => 'block--practise-custom',
+        ),
+  );
+}

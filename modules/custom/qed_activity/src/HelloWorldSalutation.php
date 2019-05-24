@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\practise;
+namespace Drupal\qed_activity;
 
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 
