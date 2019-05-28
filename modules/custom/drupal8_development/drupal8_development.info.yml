@@ -1,0 +1,5 @@
+name: Drupal8 Module Development
+description: D8 Module Development
+type: module
+core: 8.x
+package: Custom

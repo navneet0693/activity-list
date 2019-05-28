@@ -1,0 +1,4 @@
+services:
+  drupal8_development.user:
+    class: \Drupal\drupal8_development\CurrentUserService
+    arguments: ['@current_user']

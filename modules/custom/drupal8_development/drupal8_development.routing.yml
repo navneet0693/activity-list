@@ -1,0 +1,8 @@
+drupal8_development.user_tab_route:
+  path: '/user/{user}/user-detail'
+  defaults:
+    _controller: '\Drupal\drupal8_development\Controller\CurrentUserController::userDetail'
+    _title: 'Custom User Detail Page'
+  requirements:
+    _permission: 'access content'
+    user: \d+

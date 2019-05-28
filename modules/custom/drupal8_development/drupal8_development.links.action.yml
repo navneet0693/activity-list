@@ -1,0 +1,7 @@
+drupal8_development.add_page:
+  route_name: node.add_page
+  route_parameters:
+    node_type: 'article'
+  title: 'Add Article Content'
+  appears_on:
+    - drupal8_development.user_tab_route

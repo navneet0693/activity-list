@@ -1,0 +1,4 @@
+drupla8_development.user_tab:
+  title: Custom User Detail
+  route_name: drupal8_development.user_tab_route
+  base_route: entity.user.canonical
